@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Service Details - Full Stack Development Services</title>
+  <title>Helpdesk - Enterprise HRM & Ticketing Platform</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,13 +28,13 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
-<body class="service-details-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/profile image/IMG_0591.JPG" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/IMG_0591.JPG" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -69,62 +69,90 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <h1 class="mb-2 mb-lg-0">Helpdesk Platform</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li class="current">Helpdesk Details</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#" class="active">Full Stack Development</a>
-              <a href="#">API Development & Integration</a>
-              <a href="#">UI/UX Optimization</a>
-              <a href="#">Consultation and Strategy</a>
-              <a href="#">Freelance Development</a>
-            </div>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-            <h4>Comprehensive Development Solutions</h4>
-            <p>With over 4 years of experience in software development, I deliver high-quality solutions that meet business needs while maintaining clean code and optimal performance. My expertise spans both front-end and back-end technologies, allowing me to build complete, scalable applications.</p>
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/helpdesk/helpdesk homepage.png" alt="Helpdesk Homepage">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/helpdesk/helpdesk login.png" alt="Helpdesk Login Screen">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/helpdesk/helpdesk tickets.png" alt="Helpdesk Ticket Management">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Full Stack Development Services with Angular and .NET Core</h3>
-            <p>
-              As a Full Stack Developer, I specialize in building robust, scalable web applications using modern technologies. My approach combines technical expertise with a deep understanding of business requirements to deliver solutions that drive real value.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Front-end development with Angular (versions 2+ through 20), creating responsive, interactive user interfaces</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Back-end development using .NET Core, ASP.NET MVC, and ADO.NET for reliable server-side functionality</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Database design and optimization with SQL Server, ensuring efficient data storage and retrieval</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>RESTful API development for seamless integration between front-end and back-end systems</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Implementation of authentication and security best practices to protect sensitive data</span></li>
-            </ul>
-            <p>
-              My development process emphasizes clean code, maintainability, and performance optimization. I implement modern architectural patterns like Dependency Injection and Repository Pattern to ensure that applications are not only functional but also scalable and easy to maintain.
-            </p>
-            <p>
-              Throughout my career, I've contributed to enterprise platforms, HRM systems, restaurant management solutions, and customer-facing applications. My experience spans multiple industries, allowing me to bring valuable insights to each project. Whether you need a complete application built from scratch or improvements to an existing system, I can provide the expertise and dedication needed to deliver successful results.
-            </p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: HRM & Ticketing System</li>
+                <li><strong>Client</strong>: ADS (Agile Data Systems)</li>
+                <li><strong>Project date</strong>: February 2025</li>
+                <li><strong>Technologies</strong>: Angular, .NET Core, SQL</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Enterprise HRM & Ticketing Platform</h2>
+              <p>
+                The Helpdesk application is a comprehensive HRM and ticketing platform designed for organizations operating across multiple countries. It enables users from different companies and regions to securely log in, create, and manage support tickets.
+              </p>
+              <p>
+                Key features include multi-tenant support for various companies, secure authentication with role-based access control, comprehensive ticket management with real-time updates, and powerful reporting capabilities. The system streamlines communication between customers and support teams, ensuring efficient issue resolution and improved client satisfaction.
+              </p>
+              <p>
+                As the lead developer on this project, I implemented scalable architecture patterns and optimized UI-backend interactions, resulting in a 35% increase in operational efficiency and a 40% improvement in stakeholder satisfaction.
+              </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
@@ -161,4 +189,4 @@
 
 </body>
 
-</html>
+</html> 

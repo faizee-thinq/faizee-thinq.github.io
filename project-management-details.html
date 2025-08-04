@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Service Details - Full Stack Development Services</title>
+  <title>Project Management - HRM & Task Management System</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,13 +28,13 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
-<body class="service-details-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/profile image/IMG_0591.JPG" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/IMG_0591.JPG" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -69,62 +69,89 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <h1 class="mb-2 mb-lg-0">Project Management System</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li class="current">Project Management Details</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#" class="active">Full Stack Development</a>
-              <a href="#">API Development & Integration</a>
-              <a href="#">UI/UX Optimization</a>
-              <a href="#">Consultation and Strategy</a>
-              <a href="#">Freelance Development</a>
-            </div>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-            <h4>Comprehensive Development Solutions</h4>
-            <p>With over 4 years of experience in software development, I deliver high-quality solutions that meet business needs while maintaining clean code and optimal performance. My expertise spans both front-end and back-end technologies, allowing me to build complete, scalable applications.</p>
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/hrm project/home page.png" alt="Project Management Dashboard">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/hrm project/login page.png" alt="Project Management Login">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/hrm project/Project page.png" alt="Project Management Projects View">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Full Stack Development Services with Angular and .NET Core</h3>
-            <p>
-              As a Full Stack Developer, I specialize in building robust, scalable web applications using modern technologies. My approach combines technical expertise with a deep understanding of business requirements to deliver solutions that drive real value.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Front-end development with Angular (versions 2+ through 20), creating responsive, interactive user interfaces</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Back-end development using .NET Core, ASP.NET MVC, and ADO.NET for reliable server-side functionality</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Database design and optimization with SQL Server, ensuring efficient data storage and retrieval</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>RESTful API development for seamless integration between front-end and back-end systems</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Implementation of authentication and security best practices to protect sensitive data</span></li>
-            </ul>
-            <p>
-              My development process emphasizes clean code, maintainability, and performance optimization. I implement modern architectural patterns like Dependency Injection and Repository Pattern to ensure that applications are not only functional but also scalable and easy to maintain.
-            </p>
-            <p>
-              Throughout my career, I've contributed to enterprise platforms, HRM systems, restaurant management solutions, and customer-facing applications. My experience spans multiple industries, allowing me to bring valuable insights to each project. Whether you need a complete application built from scratch or improvements to an existing system, I can provide the expertise and dedication needed to deliver successful results.
-            </p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: HRM & Project Management System</li>
+                <li><strong>Project date</strong>: February 2025</li>
+                <li><strong>Technologies</strong>: .NET Core API, Angular, SQL</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Comprehensive Project & Task Management Platform</h2>
+              <p>
+                This Project Management system is a sophisticated HRM and task tracking platform designed to streamline workflow and enhance team productivity. The system allows project managers to create, assign, and monitor tasks with precision and efficiency.
+              </p>
+              <p>
+                One of the key features is the ability to break down projects into smaller, manageable tasks with specific timelines and team assignments. This hierarchical approach ensures that complex projects remain organized and on schedule. The dashboard provides real-time insights into project progress, resource allocation, and upcoming deadlines.
+              </p>
+              <p>
+                The system includes robust reporting tools, team collaboration features, and integration capabilities with other enterprise systems. With its intuitive interface and powerful backend architecture, this project management solution delivers significant improvements in team coordination, resource utilization, and project delivery timelines.
+              </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
@@ -161,4 +188,4 @@
 
 </body>
 
-</html>
+</html> 
